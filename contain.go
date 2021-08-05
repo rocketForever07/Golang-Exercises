@@ -15,7 +15,7 @@ func contain(strRoot []string, items []string) bool {
 	}
 
 	for _, v := range items {
-		_, ok := strMap[v] //ok = true nếu map chưa v
+		_, ok := strMap[v] //ok = true nếu map có key=v
 		if ok == false {
 			return false
 		}

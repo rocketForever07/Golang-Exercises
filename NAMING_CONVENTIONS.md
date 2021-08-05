@@ -1,9 +1,9 @@
-    # Naming Conventions trong Go
+# Naming Conventions trong Go
 
-## Tech
+## Method
 
--  Nếu muốn khai báo một identifier sử dụng được cả bên ngoài packet thì tên bắt đầu bằng chữ hoa
-- Nếu chỉ muốn một identifier sử dụng bên trong packet thì nên đặt theo kiểu camelCase
+-  Nếu muốn khai báo một Method sử dụng được cả bên ngoài packet thì tên bắt đầu bằng chữ hoa
+- Nếu chỉ muốn một Method sử dụng bên trong packet thì nên đặt theo kiểu camelCase
 ```sh
 package awesome
 type Awesomeness struct {}
